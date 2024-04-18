@@ -1,0 +1,34 @@
+.feed {
+    width: auto;
+    height: 100vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 15rem;
+        margin-right: .4rem;
+        transition: 1s ease;
+    }
+
+    img:hover {
+        transform: scale(1.3);
+        transition: 1s ease;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

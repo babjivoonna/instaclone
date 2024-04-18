@@ -1,0 +1,108 @@
+.LeftAside {
+    width: 35%;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: rgba(232, 241, 239, 0.938);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    header {
+        width: 90%;
+        height: 5rem;
+        padding: .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // background-color: azure;
+        color: rgb(141, 139, 139);
+
+        nav {
+            display: flex;
+            align-items: center;
+            gap: .7rem;
+
+            .user-Icon {
+                height: 3.5rem !important;
+                width: 3.5rem !important;
+                font-weight: bold;
+                font-size: 2rem;
+            }
+
+            section {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+
+                h1 {
+                    color: blue;
+                }
+            }
+        }
+    }
+}
+
+.friendsList {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.leftsearch {
+    width: 95%;
+    height: 2.5rem;
+    border-radius: 10rem;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+    background-color: white;
+    margin-bottom: 2rem;
+    color: rgb(141, 139, 139);
+    position: relative;
+
+    input {
+        width: 85%;
+        padding: .2rem;
+        border: none;
+        outline: none;
+    }
+
+    p {
+        position: absolute;
+        bottom: -1.5rem;
+        color: red;
+        font-weight: bold;
+    }
+}
+
+.chatList {
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: .5rem;
+
+    article {
+        width: 80%;
+        display: flex;
+        gap: .5rem;
+
+        img {
+            border-radius: 50%;
+        }
+
+        h1 {
+            color: blue;
+        }
+    }
+}
+
+.friend-ChatIcon {
+    height: 6rem !important;
+    width: 4rem !important;
+}
